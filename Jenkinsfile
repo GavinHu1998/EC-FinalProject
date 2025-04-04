@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         AWS_DEFAULT_REGION = 'us-east-2'
-        AWS_DOCKER_REGISTRY = '417414681022.dkr.ecr.us-east-2.amazonaws.com/my-new-image'
+        AWS_DOCKER_REGISTRY = '417414681022.dkr.ecr.us-east-2.amazonaws.com'
         APP_NAME = 'my-new-image'
     }
     stages {
